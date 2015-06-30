@@ -7,7 +7,7 @@ containers:
 export_instance_credentials: true
 
 git_refspecs:
-  cp/marginalia: "master"
+  api/marginalia: "master"
 
 script:
   - "cd $WB_ROOT/marginalia"
