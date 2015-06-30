@@ -3,7 +3,7 @@ log_level: info
 
 containers:
   - trusty-ci
- 
+
 export_instance_credentials: true
 
 git_refspecs:
