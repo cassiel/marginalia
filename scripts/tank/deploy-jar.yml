@@ -1,0 +1,14 @@
+# Builds a particular revision and runs unit tests and deploys to master
+log_level: info
+
+containers:
+  - trusty-ci
+ 
+export_instance_credentials: true
+
+git_refspecs:
+  cp/marginalia: "master"
+
+script:
+  - "cd $WB_ROOT/marginalia"
+  - "lein2 do clean, test, deploy xdeps"

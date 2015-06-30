@@ -1,0 +1,6 @@
+containers:
+  - trusty-ci
+
+script:
+  - "cd $WB_ROOT/marginalia"
+  - "lein2 do check, test"
