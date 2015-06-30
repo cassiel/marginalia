@@ -1,6 +1,5 @@
 (defproject marginalia "dynamic-version"
   :description "lightweight literate programming for clojure -- inspired by [docco](http://jashkenas.github.com/docco/)"
-;;  :main marginalia.main
   :repositories
     {"climate" "http://maven.ci.climatedna.net/nexus/service/local/repositories/climate/content"}
   :dependencies
